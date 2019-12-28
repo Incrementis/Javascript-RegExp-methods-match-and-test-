@@ -1,12 +1,12 @@
 /*
-==================================================================================
+	=============================================================================
 	NOTE:
 	
 	The use of global variables is not recommended, due to higher risk of errors.
 	
 	The code below serves only demonstration purposes and could be improved.
 	
-==================================================================================
+	==============================================================================
 */
 
 
@@ -57,11 +57,11 @@ function start()
 {		
 	// Variables
 	var myExpression 	= HTML_Tags.Span_Search.value;
-	var myFlag		 	= HTML_Tags.Span_Flags.value;
+	var myFlag		 = HTML_Tags.Span_Flags.value;
 	var myTokens		= HTML_Tags.Span_Token.innerHTML;
 	var myTestArea		= HTML_Tags.Span_Test;
 	var myMatchArea		= HTML_Tags.Span_Match;
-	var myText		 	= HTML_Tags.Textarea_text.value;
+	var myText		 = HTML_Tags.Textarea_text.value;
 	
 
 	// Checking if any flag is selected
