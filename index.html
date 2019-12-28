@@ -34,21 +34,21 @@
 	
 		<!--CODE-->
 		<section style="border-style:ridge; 
-						width:450px; 
-						margin-left:auto; 
-						margin-right:auto; 
-						background-color:#282525; 
-						color:white">	
+				width:450px; 
+				margin-left:auto; 
+				margin-right:auto; 
+				background-color:#282525; 
+				color:white">	
 						
 			<h3>Recreate RegEx Code</h3>
 			
 			<p>Search for: 
 				<select id="code">
-					<option value="[0-9]+">			[0-9]+</option>
-					<option value="[A-Z]+">			[A-Z]+</option>
-					<option value="\(.+\)">			\(.+\)</option>
+					<option value="[0-9]+">		[0-9]+</option>
+					<option value="[A-Z]+">		[A-Z]+</option>
+					<option value="\(.+\)">		\(.+\)</option>
 					<option value="[A-Za-z]*ion">	[A-Za-z]*ion</option>
-					<option value="[^A-Za-z]">		[^A-Za-z]</option>
+					<option value="[^A-Za-z]">	[^A-Za-z]</option>
 				
 				</select>
 			</p>
@@ -57,9 +57,9 @@
 			<p>Use flag(s)
 				<select id="flags">
 					<option value="none">	none</option>
-					<option value="g">		g - search global</option>
-					<option value="i">		i - not case sensitive</option>
-					<option value="ig">		ig - global and not case sensitive</option>
+					<option value="g">	g - search global</option>
+					<option value="i">	i - not case sensitive</option>
+					<option value="ig">	ig - global and not case sensitive</option>
 				
 				</select>
 			</p>
@@ -77,80 +77,80 @@
 
 		<!--TOKEN-->	
 		<section style="border-style:ridge; 
-						width:450px; height:220px; 
-						margin-left:auto; 
-						margin-right:auto; 
-						background-color:#C09F9F">	
+				width:450px; height:220px; 
+				margin-left:auto; 
+				margin-right:auto; 
+				background-color:#C09F9F">	
 						
 			<h3>RegEx token</h3>
 			
 			<button type="button" 
-					style="float:left; width:100%; margin-bottom:10px;" 
-					onclick="getToken('ltrStr');">
+				style="float:left; width:100%; margin-bottom:10px;" 
+				onclick="getToken('ltrStr');">
 
 				Literal string
 			</button>
 			
 
 			<button type="button" 
-					style="float:left; width:45%; margin-bottom:10px;" 
-					onclick="getToken('|');">
+				style="float:left; width:45%; margin-bottom:10px;" 
+				onclick="getToken('|');">
 
 				Or
 			</button>
 
 
 			<button type="button" 
-					style="float:right; width:45%; margin-bottom:10px;"
-					onclick="getToken('.');">
+				style="float:right; width:45%; margin-bottom:10px;"
+				onclick="getToken('.');">
 
 				Wildcard character
 			</button>
 
 
 			<button type="button" 
-					style="float:left; width:45%; margin-bottom:10px;"
-					onclick="getToken('[');">
+				style="float:left; width:45%; margin-bottom:10px;"
+				onclick="getToken('[');">
 
 				Chracter line up OPEN
 			</button>
 
 
 			<button type="button" 
-					style="float:right; width:45%; margin-bottom:10px;"
-					onclick="getToken(']');">
+				style="float:right; width:45%; margin-bottom:10px;"
+				onclick="getToken(']');">
 
 				Chracter line up CLOSE
 			</button>
 
 
 			<button type="button" 
-					style="float:left; width:45%; margin-bottom:10px;"
-					onclick="getToken('-');">
+				style="float:left; width:45%; margin-bottom:10px;"
+				onclick="getToken('-');">
 
 				Range of letters/numbers
 			</button>
 
 
 			<button type="button" 
-					style="float:right; width:45%; margin-bottom:10px;"
-					onclick="getToken('^');">
+				style="float:right; width:45%; margin-bottom:10px;"
+				onclick="getToken('^');">
 
 				Not/Negate
 			</button>
 
 
 			<button type="button" 
-					style="float:left; width:45%; margin-bottom:10px;"
-					onclick="getToken('+');">
+				style="float:left; width:45%; margin-bottom:10px;"
+				onclick="getToken('+');">
 
 				One or more times
 			</button>
 
 
 			<button type="button" 
-					style="float:right; width:45%; margin-bottom:10px;"
-					onclick="getToken('*');">
+				style="float:right; width:45%; margin-bottom:10px;"
+				onclick="getToken('*');">
 
 				Zero or more times
 			</button>
@@ -175,10 +175,10 @@
 
 		<!--RESULT-->		
 		<section style="border-style:ridge; 
-						width:450px; 
-						margin-left:auto; 
-						margin-right:auto;
-						background-color:#E0E0E0">
+				width:450px; 
+				margin-left:auto; 
+				margin-right:auto;
+				background-color:#E0E0E0">
 						
 			<h3>Result</h3>
 			
@@ -197,10 +197,10 @@
 
 		<!--TEXT-->		
 		<section style="border-style:ridge; 
-						width:450px; 
-						margin-left:auto; 
-						margin-right:auto;
-						background-color:#009999">
+				width:450px; 
+				margin-left:auto; 
+				margin-right:auto;
+				background-color:#009999">
 						
 			<h3>Text</h3>
 			
